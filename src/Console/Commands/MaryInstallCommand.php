@@ -17,7 +17,7 @@ class MaryInstallCommand extends Command
                             {--npm : Use npm as package manager}
                             {--bun : Use bun as package manager}
                             {--pnpm : Use pnpm as package manager}
-                            {--no-css: Do not place changes on `app.css`}';
+                            {--no-css : Do not place changes on `app.css`}';
 
     protected $description = 'Command description';
 
