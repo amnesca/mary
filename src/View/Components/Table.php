@@ -385,7 +385,7 @@ class Table extends Component
                                         <td class="w-1 pe-0 py-0">
                                             @if(data_get($row, $sortableCondition))
                                                 <x-mary-icon
-                                                    wire:sort:item="{{ $row->id }}"
+                                                    wire:sort:item="{{ data_get($row, $sortableKey) }}"
                                                     name="o-bars-3"
                                                     class="cursor-grab active:cursor-grabbing p-2 w-8 h-8 bg-base-300 rounded-lg" />
                                             @endif
